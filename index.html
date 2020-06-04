@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>jQuery File Upload Example</title>
+    <style type="text/css">
+        .myfileupload-buttonbar input
+        {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 0;
+            border: solid transparent;
+            border-width: 0 0 100px 200px;
+            opacity: 0.0;
+            filter: alpha(opacity=0);
+            -o-transform: translate(250px, -50px) scale(1);
+            -moz-transform: translate(-300px, 0) scale(4);
+            direction: ltr;
+            cursor: pointer;
+        }
+        .myui-button
+        {
+            position: relative;
+            cursor: pointer;
+            text-align: center;
+            overflow: visible;
+            background-color: red;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div id="fileupload" >
+        <div class="myfileupload-buttonbar ">
+            <label class="myui-button">
+                <span >Add Files</span>
+                <input id="file" type="file" name="files[]" />
+            </label>
+        </div>
+    </div>
+</body>
+</html>		
